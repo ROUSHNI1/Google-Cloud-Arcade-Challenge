@@ -1,7 +1,45 @@
 # ```Embedding Maps in Looker BI```
 
 
+## ```Look #1- Choropleth Map: Plot carriers operating count by state on Maps```
+1.In the Looker Navigation menu, click **Explore**.
+
+
+2.Under **FAA**, click **Flights**.
+
+
+![image](https://github.com/ROUSHNI1/Google-Cloud-Arcade-Challenge/assets/79622917/f46a4802-e54b-4075-933c-4ee0a6fe4406) 
+
+3.The available **dimensions** and **measures** will be listed in the data panel for Flights.
+
+4.Under **Carriers** > **Measures**, click **Count**
+
+![image](https://github.com/ROUSHNI1/Google-Cloud-Arcade-Challenge/assets/79622917/3e5bcb46-4ae2-46df-8979-5d8ddf6bdac3)
+
+5.Under **Aircraft Origin** > **Dimensions**, select **State**.
+
+![image](https://github.com/ROUSHNI1/Google-Cloud-Arcade-Challenge/assets/79622917/9ad7b1f9-7743-438b-847b-f6bb4c300092)
+
+6.Click **Run**.
+
+7.Click the arrow next to **Visualization** to expand the window.
+
+8.Once the Visualization window has expanded, Choose the **Map Visualization**.
+9.A map should appear with US states.
+10.Click on **edit** option. Go to the **value** tab. Toggle the **reverse color scale** option.
+
+![image](https://github.com/ROUSHNI1/Google-Cloud-Arcade-Challenge/assets/79622917/0b017838-ce56-4676-9b55-e8bff483431f)
+
+11. Save this **visualization** as a dashboard. Click on settings icon and then click on **save as a new dashboard**.
+12. Title the Dashboard as **Carriers count against states**.
+
+ 
+# 2 - Map with Lines: Count of Flights connecting a state
+### Now go to Look in to main menu LookML 
 ⚪️ Turn on Development mode Toggle 
+then Go to **File Browser** > ```qwiklabs-flights-maps.model.lkml```
+
+![Screenshot (655)](https://github.com/ROUSHNI1/Google-Cloud-Arcade-Challenge/assets/79622917/3bd7cf3f-5520-4478-86f1-e484fe37d059)
 
 
 
