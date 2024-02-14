@@ -67,7 +67,7 @@ explore: flights {
 
 explore: +flights {
   
-    query: quicklab_task_1{
+    query: roushni_quicklab_task_1{
       dimensions: [aircraft_origin.state]
       measures: [carriers.count]
     }
@@ -76,7 +76,7 @@ explore: +flights {
 
 # Place in `qwiklabs-flights-maps` model
 explore: +flights {
-    query: quicklab_task_2{
+    query: roushni_quicklab_task_2{
       dimensions: [aircraft_destination.map_location, aircraft_origin.map_location]
       measures: [count]
       filters: [
@@ -90,7 +90,7 @@ explore: +flights {
 # Place in `qwiklabs-flights-maps` model
 
 explore: +flights {
-    query: quicklab_task_3 {
+    query: roushni_quicklab_task_3 {
       dimensions: [aircraft.region]
       measures: [aircraft.count]
     }
