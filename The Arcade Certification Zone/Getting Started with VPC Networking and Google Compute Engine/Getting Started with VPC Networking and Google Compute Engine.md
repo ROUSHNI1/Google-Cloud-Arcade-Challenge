@@ -13,5 +13,9 @@
 ####   2. sencond step copy paste following command 
 
 ```bash
-curl -LO 
+curl -LO https://raw.githubusercontent.com/ROUSHNI1/Google-Cloud-Arcade-Challenge/main/The%20Arcade%20Certification%20Zone/Getting%20Started%20with%20VPC%20Networking%20and%20Google%20Compute%20Engine/arcadevpc.sh
+
+sudo chmod +x arcadevpc.sh
+./arcadevpc.sh
+
 ```
