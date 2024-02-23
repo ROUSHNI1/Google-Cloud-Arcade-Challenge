@@ -9,11 +9,11 @@ mkdir tfinfra
 
 cd tfinfra
 
-wget https://raw.githubusercontent.com/ROUSHNI1/Google-Cloud-Arcade-Challenge/blob/main/The%20Arcade%20Certification%20Zone/Automating%20the%20Deployment%20of%20Infrastructure%20Using%20Terraform/mynetwork.tf
+wget https://raw.githubusercontent.com/ROUSHNI1/Google-Cloud-Arcade-Challenge/main/The%20Arcade%20Certification%20Zone/Automating%20the%20Deployment%20of%20Infrastructure%20Using%20Terraform/mynetwork.tf
 
-wget https://raw.githubusercontent.com/ROUSHNI1/Google-Cloud-Arcade-Challenge/blob/main/The%20Arcade%20Certification%20Zone/Automating%20the%20Deployment%20of%20Infrastructure%20Using%20Terraform/provider.tf
+wget https://raw.githubusercontent.com/ROUSHNI1/Google-Cloud-Arcade-Challenge/main/The%20Arcade%20Certification%20Zone/Automating%20the%20Deployment%20of%20Infrastructure%20Using%20Terraform/provider.tf
 
-wget https://raw.githubusercontent.com/ROUSHNI1/Google-Cloud-Arcade-Challenge/blob/main/The%20Arcade%20Certification%20Zone/Automating%20the%20Deployment%20of%20Infrastructure%20Using%20Terraform/variables.tf
+wget https://raw.githubusercontent.com/ROUSHNI1/Google-Cloud-Arcade-Challenge/main/The%20Arcade%20Certification%20Zone/Automating%20the%20Deployment%20of%20Infrastructure%20Using%20Terraform/variables.tf
 
 
 mkdir instance
@@ -21,7 +21,7 @@ mkdir instance
 cd instance
 
 
-wget https://raw.githubusercontent.com/ROUSHNI1/Google-Cloud-Arcade-Challenge/blob/main/The%20Arcade%20Certification%20Zone/Automating%20the%20Deployment%20of%20Infrastructure%20Using%20Terraform/instance/main.tf
+wget https://raw.githubusercontent.com/ROUSHNI1/Google-Cloud-Arcade-Challenge/main/The%20Arcade%20Certification%20Zone/Automating%20the%20Deployment%20of%20Infrastructure%20Using%20Terraform/instance/main.tf
 
 cd ..
 
